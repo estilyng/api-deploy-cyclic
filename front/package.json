@@ -1,0 +1,73 @@
+{
+    "name": "sat_saude",
+    "version": "0.1.0",
+    "private": true,
+    "author": "Fabrício Santos",
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint"
+       
+    },
+    "dependencies": {
+        "@vue/cli": "^4.5.10",
+        "axios": "^0.19.2",
+        "chart.js": "^2.9.4",
+        "core-js": "^3.8.2",
+        "emoji-mart-vue": "^2.6.6",
+        "emoji-mart-vue-fast": "^7.0.7",
+        "firebase": "^7.24.0",
+        "localforage": "^1.9.0",
+        "moment": "^2.29.4",
+        "register-service-worker": "^1.7.2",
+        "vee-validate": "^3.4.5",
+        "vue": "^2.6.12",
+        "vue-chartjs": "^3.5.1",
+        "vue-image-crop-upload": "^2.5.0",
+        "vue-router": "^3.4.9",
+        "vue-toastification": "^1.7.11",
+        "vuetify": "^2.6.14",
+        "vuex": "^3.6.0",
+        "vuex-persist": "^2.3.0"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "~4.2.0",
+        "@vue/cli-plugin-eslint": "~4.2.0",
+        "@vue/cli-plugin-pwa": "^4.5.10",
+        "@vue/cli-plugin-vuex": "^4.5.10",
+        "@vue/cli-service": "~4.2.0",
+        "babel-eslint": "^10.0.3",
+        "deepmerge": "^4.2.2",
+        "eslint": "^6.7.2",
+        "eslint-plugin-vue": "^6.1.2",
+        "fibers": "^4.0.2",
+        "laravel-echo": "^1.10.0",
+        "postcss-rtl": "^1.2.3",
+        "pusher-js": "^7.0.2",
+        "sass": "^1.58.0",
+        "sass-loader": "^8.0.2",
+        "stylus": "^0.59.0",
+        "stylus-loader": "^3.0.2",
+        "vue-cli-plugin-vuetify": "^2.0.9",
+        "vue-template-compiler": "^2.6.12",
+        "vuetify-loader": "^1.6.0"
+    },
+    "eslintConfig": {
+        "root": true,
+        "env": {
+            "node": true
+        },
+        "extends": [
+            "plugin:vue/essential",
+            "eslint:recommended"
+        ],
+        "parserOptions": {
+            "parser": "babel-eslint"
+        },
+        "rules": {}
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions"
+    ]
+}
